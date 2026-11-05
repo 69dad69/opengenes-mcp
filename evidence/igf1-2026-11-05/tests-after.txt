@@ -1,0 +1,10 @@
+test_cohort_and_provenance_are_available_for_source_review (test_liver_reference.LiverReferenceTests.test_cohort_and_provenance_are_available_for_source_review) ... ok
+test_filter_excludes_other_species_tissues_and_reductions (test_liver_reference.LiverReferenceTests.test_filter_excludes_other_species_tissues_and_reductions) ... ok
+test_missing_mean_does_not_hide_median_extension_or_its_order (test_liver_reference.LiverReferenceTests.test_missing_mean_does_not_hide_median_extension_or_its_order) ... ok
+test_missing_significance_is_not_replaced_by_a_positive_flag (test_liver_reference.LiverReferenceTests.test_missing_significance_is_not_replaced_by_a_positive_flag) ... ok
+test_positive_but_nonsignificant_record_keeps_metric_flags (test_liver_reference.LiverReferenceTests.test_positive_but_nonsignificant_record_keeps_metric_flags) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK

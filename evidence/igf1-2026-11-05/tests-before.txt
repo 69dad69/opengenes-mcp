@@ -1,0 +1,49 @@
+test_cohort_and_provenance_are_available_for_source_review (test_liver_reference.LiverReferenceTests.test_cohort_and_provenance_are_available_for_source_review) ... FAIL
+test_filter_excludes_other_species_tissues_and_reductions (test_liver_reference.LiverReferenceTests.test_filter_excludes_other_species_tissues_and_reductions) ... ok
+test_missing_mean_does_not_hide_median_extension_or_its_order (test_liver_reference.LiverReferenceTests.test_missing_mean_does_not_hide_median_extension_or_its_order) ... FAIL
+test_missing_significance_is_not_replaced_by_a_positive_flag (test_liver_reference.LiverReferenceTests.test_missing_significance_is_not_replaced_by_a_positive_flag) ... FAIL
+test_positive_but_nonsignificant_record_keeps_metric_flags (test_liver_reference.LiverReferenceTests.test_positive_but_nonsignificant_record_keeps_metric_flags) ... FAIL
+
+======================================================================
+FAIL: test_cohort_and_provenance_are_available_for_source_review (test_liver_reference.LiverReferenceTests.test_cohort_and_provenance_are_available_for_source_review)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<workspace>\work\igf1-patch-validation\test\test_liver_reference.py", line 61, in test_cohort_and_provenance_are_available_for_source_review
+    self.assertEqual(row.get("sex"), "female")
+AssertionError: None != 'female'
+
+======================================================================
+FAIL: test_missing_mean_does_not_hide_median_extension_or_its_order (test_liver_reference.LiverReferenceTests.test_missing_mean_does_not_hide_median_extension_or_its_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<workspace>\work\igf1-patch-validation\test\test_liver_reference.py", line 83, in test_missing_mean_does_not_hide_median_extension_or_its_order
+    self.assertEqual([row.get("lifespan_percent_change_median") for row in rows], [16.1, 2.9])
+AssertionError: Lists differ: [None, None] != [16.1, 2.9]
+
+First differing element 0:
+None
+16.1
+
+- [None, None]
++ [16.1, 2.9]
+
+======================================================================
+FAIL: test_missing_significance_is_not_replaced_by_a_positive_flag (test_liver_reference.LiverReferenceTests.test_missing_significance_is_not_replaced_by_a_positive_flag)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<workspace>\work\igf1-patch-validation\test\test_liver_reference.py", line 71, in test_missing_significance_is_not_replaced_by_a_positive_flag
+    self.assertIn("significance_max", row)
+AssertionError: 'significance_max' not found in {'HGNC': 'IGF1', 'intervention_method': 'gene knockout', 'tissue': 'liver', 'lifespan_percent_change_mean': None, 'effect_on_lifespan': 'increases lifespan'}
+
+======================================================================
+FAIL: test_positive_but_nonsignificant_record_keeps_metric_flags (test_liver_reference.LiverReferenceTests.test_positive_but_nonsignificant_record_keeps_metric_flags)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<workspace>\work\igf1-patch-validation\test\test_liver_reference.py", line 53, in test_positive_but_nonsignificant_record_keeps_metric_flags
+    self.assertEqual(row.get("lifespan_percent_change_median"), 2.9)
+AssertionError: None != 2.9
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+FAILED (failures=4)

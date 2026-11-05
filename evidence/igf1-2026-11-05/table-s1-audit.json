@@ -1,0 +1,271 @@
+{
+  "extraction": "OOXML visible w:t text; first table; carry merged cage/genotype/sex values forward. EndNote field instructions excluded.",
+  "rows": 74,
+  "source_header": [
+    "Cage number",
+    "Mouse number",
+    "Genotype",
+    "Sex",
+    "DOB",
+    "DOD",
+    "Age, days",
+    "Average lifespan (Mean±SEM)"
+  ],
+  "reported_summary_cells": [
+    {
+      "genotype": "Control",
+      "sex": "M",
+      "verbatim_summary_cell": "1014±55 days\n\n34.7±1.3 months"
+    },
+    {
+      "genotype": "LID",
+      "sex": "M",
+      "verbatim_summary_cell": "836±50 days\n\n27.9±1.7 months"
+    },
+    {
+      "genotype": "Control",
+      "sex": "F",
+      "verbatim_summary_cell": "1043±30 days\n\n34.8±1.0 months"
+    },
+    {
+      "genotype": "LID",
+      "sex": "F",
+      "verbatim_summary_cell": "1087±38 days\n\n36.2±1.2 months"
+    }
+  ],
+  "descriptive_checks_not_replacement_survival_estimates": [
+    {
+      "genotype": "Control",
+      "sex": "M",
+      "n": 16,
+      "arithmetic_mean_days": 1013.5625,
+      "median_of_listed_ages_days": 1036.0,
+      "minimum_days": 623,
+      "maximum_days": 1363
+    },
+    {
+      "genotype": "LID",
+      "sex": "M",
+      "n": 16,
+      "arithmetic_mean_days": 835.5625,
+      "median_of_listed_ages_days": 793.0,
+      "minimum_days": 510,
+      "maximum_days": 1279
+    },
+    {
+      "genotype": "Control",
+      "sex": "F",
+      "n": 25,
+      "arithmetic_mean_days": 1042.76,
+      "median_of_listed_ages_days": 1022,
+      "minimum_days": 764,
+      "maximum_days": 1361
+    },
+    {
+      "genotype": "LID",
+      "sex": "F",
+      "n": 17,
+      "arithmetic_mean_days": 1086.764705882353,
+      "median_of_listed_ages_days": 1082,
+      "minimum_days": 783,
+      "maximum_days": 1327
+    }
+  ],
+  "date_conflicts": [
+    {
+      "source_table_row": 29,
+      "cage": "10",
+      "mouse": "1",
+      "genotype": "LID",
+      "sex": "M",
+      "dob": "04/27/02",
+      "dod": "05/04/01",
+      "reported_age_days": 738,
+      "reported_summary": "",
+      "computed_date_difference_days": -358
+    }
+  ],
+  "dates_not_evaluated": [
+    {
+      "source_table_row": 3,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 4,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 5,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 7,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 8,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 9,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 11,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 12,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 14,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 15,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 17,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 19,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 20,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 22,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 24,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 25,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 27,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 28,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 30,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 35,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 36,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 39,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 40,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 42,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 44,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 45,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 47,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 48,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 49,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 51,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 53,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 55,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 56,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 58,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 60,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 61,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 63,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 64,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 66,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 67,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 69,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 71,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 72,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 73,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    },
+    {
+      "source_table_row": 75,
+      "reason": "DOB or DOD not explicitly repeated; merged date cells not inferred"
+    }
+  ],
+  "limits": "No censoring model or survival reanalysis. Table S1 says Mean +/- SEM; article prose uses median. Male control has 16 listed rows versus Figure 1's n=15. No automatic reconciliation. Native DOCX render unavailable: bundled LibreOffice not found."
+}

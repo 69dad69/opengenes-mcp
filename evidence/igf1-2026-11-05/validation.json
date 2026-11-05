@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-11-05",
+  "base_commit": "02accbdc443200ba1cd755cbb165f57ef5ff5b6d",
+  "dataset_sha256": "1d34bedfbdc544627b4e0b14c88134e098318d163d1a943343ec6da9bc8ca0b1",
+  "same_as_previous_snapshot": true,
+  "same_as_open_genes_gpts_export": true,
+  "article_xml_sha256": "96dc1a00f245483ffeb7ed63e30daf883219975c98f84fbdc4d254a849f1fad5",
+  "supplement_docx_sha256": "0b141642c8abb4ed2ec5a8767a7ed1b5d0fc7d69a459d3ec4d2243c23c0d74d9",
+  "supplement_archive_sha256": "12c2daed19d8b11edb8e87f3d99be2161c01c82c3331b810af6387ce8bee6d7e",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "sqlite_version": "3.53.1",
+  "quick_check": "ok",
+  "before": "5 tests, 4 failures, 1 pass",
+  "after": "5 tests passed",
+  "patch_apply_check": "passed on fresh base archive",
+  "diff_check": "passed",
+  "data_values_changed": false,
+  "limits": [
+    "No full upstream pytest, MCP, or LLM judge run.",
+    "No native DOCX render: bundled LibreOffice absent.",
+    "2017 article abstract and PubMed identity checked; its exact cohort/values not independently source-validated.",
+    "Live Open Genes API request timed out; source CMS record IDs not established."
+  ]
+}
